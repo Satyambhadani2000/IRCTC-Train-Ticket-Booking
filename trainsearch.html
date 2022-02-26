@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<p>Click here to see train details.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Click here to see IRCTC train details";
+  var result = str.link("IRCTCtraindetails.html");
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
